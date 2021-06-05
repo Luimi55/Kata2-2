@@ -13,6 +13,7 @@
 		E2781BD9266C0546001AF30C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2781BD8266C0546001AF30C /* Preview Assets.xcassets */; };
 		E2781BE4266C0546001AF30C /* romanNumber2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2781BE3266C0546001AF30C /* romanNumber2Tests.swift */; };
 		E2781BEF266C0547001AF30C /* romanNumber2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2781BEE266C0547001AF30C /* romanNumber2UITests.swift */; };
+		E2781BFD266C05B8001AF30C /* romanNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2781BFC266C05B8001AF30C /* romanNumber.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		E2781BEA266C0547001AF30C /* romanNumber2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = romanNumber2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2781BEE266C0547001AF30C /* romanNumber2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = romanNumber2UITests.swift; sourceTree = "<group>"; };
 		E2781BF0266C0547001AF30C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2781BFC266C05B8001AF30C /* romanNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = romanNumber.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				E2781BD5266C0546001AF30C /* Assets.xcassets */,
 				E2781BDA266C0546001AF30C /* Info.plist */,
 				E2781BD7266C0546001AF30C /* Preview Content */,
+				E2781BFC266C05B8001AF30C /* romanNumber.swift */,
 			);
 			path = romanNumber2;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2781BFD266C05B8001AF30C /* romanNumber.swift in Sources */,
 				E2781BD4266C0545001AF30C /* ContentView.swift in Sources */,
 				E2781BD2266C0545001AF30C /* romanNumber2App.swift in Sources */,
 			);
